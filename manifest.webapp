@@ -1,0 +1,19 @@
+{
+    "version": "0.1",
+	"name": "Hipoteca Calculadora",
+	"description": "Calcula el valor mensual de tu hipoteca o préstamo",
+	"launch_path": "/index.html",
+	"developer": {
+		"name": "Albert Asensio",
+		"url": "http://albertasensio.es"
+	},
+	"icons": {
+		"30": "/img/logo/logo_30.png",
+		"60": "/img/logo/logo_60.png",
+		"90": "/img/logo/logo_90.png",
+		"120": "/img/logo/logo_120.png",
+		"128": "/img/logo/logo_128.png"
+	},
+	"default_locale": "es",
+	"installs_allowed_from": ["*"]
+}
