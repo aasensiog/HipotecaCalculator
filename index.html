@@ -21,31 +21,25 @@
 </head>
 <body>
 
-	<div data-role="page" data-theme="e" id='index'>
+	<div data-role="page" data-theme="c" id='index'>
 		<div data-role="header" data-position='fixed'>
-			<h1>Hipoteca Calculator</h1>
+			<h1>Hipoteca Calc.</h1>
 		</div>
 		<div data-role="content">
 			<h1 id='resultado'></h1>
-			<label for='dinero'>Dinero solicitado</label><input id='dinero' type='text'>
-			<label for='interes'>Interés</label><input id='interes' type='text'>
-			<label for='años'>Años</label><input id='años' type='text'>
+			<label for='dinero'>Dinero solicitado</label><input id='dinero' type='number' placeholder='€'>
+			<label for='interes'>Interés</label><input id='interes' type='number' step="0.01" placeholder='%'>
+			<label for='años'>Tiempo</label><input id='años' type='number' placeholder='Años'>
 			<a data-role="button" id='calcular'>Calcular</a>
-		</div>
-		<div data-role="footer" data-position="fixed">
-			<h4>@aasensiog</h4>
 		</div>
 	</div>
 
-	<div data-role="page" data-theme="e" id='desglose'>
+	<div data-role="page" data-theme="c" id='desglose'>
 		<div data-role="header" data-position='fixed'>
 			<h1>Hipoteca Calculator</h1>
 		</div>
 		<div data-role="content">
 			Desglose
-		</div>
-		<div data-role="footer" data-position="fixed">
-			<h4>@aasensiog</h4>
 		</div>
 	</div>
 
